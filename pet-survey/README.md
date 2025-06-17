@@ -22,7 +22,8 @@ They can also leave comments at the end of the survey.
 ## 🔧 Revised Parts
 (2025-06-17)
 
-1.  <Label>--><label>
+```html
+1.  <Label>-->&lt;label&gt;
 2.  change input name value from name="pet2" to name="pet"
 3.  replace </form> under <textarea>
 4.  Add a submit button
