@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+         <style>
+            fieldset {
+                background-color: rgb(245, 245, 245);
+                border: inset 5px rgba(214, 185, 185, 0.247); 
+                width: 300px;  
+            }
+
+            body {
+                box-sizing: content-box;
+                background-color: rgb(241, 222, 194);
+                font-family: arial;                
+            }
+
+            p {
+                font-weight: bold;
+            }
+         </style>
+    </head>
+<body>
+ <main>
+   <header>
+    <h1>Are you a pet lover?</h1>
+     <p>We're a group of pet lovers who would love to get to know your furry friends!</p>    
+   </header> 
+    <form>
+        <label for="name">Owner Name:</label>
+        <input type="text" id="name" name="owmername" placeholder="Ex. Emily Jones" size="10"/>
+    </form>
+<br>
+    <fieldset>
+       <legend>What kind of pet do you have?</legend> 
+        <label for="dog">Dog</label>
+        <input type="radio" id="dog" name="pet"/>
+          <label for="cat">Cat</label>
+          <input type="radio" id="cat" name="pet2"/>
+            <label for="exotic">exotic pet</label>
+            <select id="exotic">
+                <option value="dash">---</option>
+                <option value="gecko">Gecko</option>
+                <option value="snake">Snake</option>
+                <option value="spider">Spider</option>
+                <option value="other">-Other-</option>
+            </select>
+    </fieldset>
+<br>    
+    <fieldset>
+        <legend>How long have you keep pets?</legend>
+          <select id="year">
+            <option selected value="empty">---</option>
+            <option value="one">1</option>
+            <option value="three">3</option>
+            <option value="five">5</option>      
+            <option value="ten">10+</option>            
+          </select>
+         <label for="year">Year</label>
+
+          <select id="month">
+            <option selected value="empty">---</option>
+            <option value="zero">0</option>
+            <option value="three">3</option>
+            <option value="six">6</option>            
+          </select>
+         <label for="month">Month</label>
+    </fieldset> 
+<br>
+    <fieldset>
+        <legend style="width:350px;">Would you like to make more furry friends?</legend>
+         <label for="join">Join us</label>
+         <input type="checkbox" id="join" name="invitation" value="join" />
+          <label for="not-join">No way</label>
+          <input type="checkbox" id="not-join" name="no" value="no" />
+    </fieldset>
+<br>
+    <Label for="comments">Leave any comments below for being a better pet lover!</Label>
+<br>
+    <textarea id="comments" placeholder="feel free..."></textarea>        
+ </main>
+</body>    
+</html>
