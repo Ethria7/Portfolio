@@ -19,6 +19,19 @@ They can also leave comments at the end of the survey.
 - Leave comments in a textarea
 - Submit the form (no backend connected)
 
+## 🔧 Revised Parts
+(2025-06-17)
+
+1.  <Label>--><label>
+2.  change input name value from name="pet2" to name="pet"
+3.  replace </form> under <textarea>
+4.  Add a submit button
+5.  more <br>
+6.  body {
+    border-style: ridge;
+    }
+7.  change the third <fieldset> <input> element --> type="checkbox" to type="radio"
+
 ## 📌 Note
 This is a static front-end project created for practice and learning.  
 Form submission does not store or send any data.
