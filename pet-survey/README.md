@@ -32,7 +32,7 @@ They can also leave comments at the end of the survey.
     border-style: ridge;
     }
 7.  change the third <fieldset> <input> element --> type="checkbox" to type="radio"
-
+```
 ## 📌 Note
 This is a static front-end project created for practice and learning.  
 Form submission does not store or send any data.
