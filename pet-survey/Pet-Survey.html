@@ -6,13 +6,13 @@
          <style>
             fieldset {
                 background-color: rgb(245, 245, 245);
-                border: inset 5px rgba(214, 185, 185, 0.247); 
+                border: ridge 5px rgba(214, 185, 185, 0.514); 
                 width: 300px;  
             }
 
             body {
                 box-sizing: content-box;
-                background-color: rgb(241, 222, 194);
+                background-color: rgb(247, 241, 232);
                 font-family: arial;                
             }
 
@@ -30,22 +30,21 @@
     <form>
         <label for="name">Owner Name:</label>
         <input type="text" id="name" name="owmername" placeholder="Ex. Emily Jones" size="10"/>
-    </form>
-<br>
+<br><br>
     <fieldset>
        <legend>What kind of pet do you have?</legend> 
         <label for="dog">Dog</label>
         <input type="radio" id="dog" name="pet"/>
-          <label for="cat">Cat</label>
-          <input type="radio" id="cat" name="pet2"/>
-            <label for="exotic">exotic pet</label>
-            <select id="exotic">
-                <option value="dash">---</option>
-                <option value="gecko">Gecko</option>
-                <option value="snake">Snake</option>
-                <option value="spider">Spider</option>
-                <option value="other">-Other-</option>
-            </select>
+        <label for="cat">Cat</label>
+        <input type="radio" id="cat" name="pet"/>
+        <label for="exotic">exotic pet</label>
+          <select id="exotic">
+            <option value="dash">---</option>
+            <option value="gecko">Gecko</option>
+            <option value="snake">Snake</option>
+            <option value="spider">Spider</option>
+            <option value="other">-Other-</option>
+          </select>
     </fieldset>
 <br>    
     <fieldset>
@@ -70,15 +69,18 @@
 <br>
     <fieldset>
         <legend style="width:350px;">Would you like to make more furry friends?</legend>
-         <label for="join">Join us</label>
-         <input type="checkbox" id="join" name="invitation" value="join" />
-          <label for="not-join">No way</label>
-          <input type="checkbox" id="not-join" name="no" value="no" />
+         <label for="yes">Yes</label>
+         <input type="radio" id="yes" name="join" value="yes" />
+         <label for="no">No</label>
+         <input type="radio" id="no" name="join" value="no" />
     </fieldset>
 <br>
-    <Label for="comments">Leave any comments below for being a better pet lover!</Label>
+    <label for="comments">Leave any comments below for being a better pet lover!</label>
 <br>
-    <textarea id="comments" placeholder="feel free..."></textarea>        
+    <textarea id="comments" placeholder="feel free..."></textarea> 
+<br>
+    <button type="submit">Submit</button>
+    </form>       
  </main>
 </body>    
 </html>
